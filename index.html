@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Emprende Envigado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Emprende Envigado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#quienes">Inicio</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="grupos_recursos.html" target="_blank">Grupos y Recursos</a>
+          </li>          
+          <li class="nav-item"><a class="nav-link" href="#formulario">Formularios</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="datos.html" target="_blank">Datos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="inicio" class="p-5 bg-light">
+  <div class="container">
+    <h1 class="text-center">Bienvenidos a Emprende Envigado</h1>
+    <p class="lead text-center">Una plataforma que impulsa el emprendimiento local con enfoque incluyente y comunitario.</p>
+  </div>
+</section>
+
+<!-- Carrusel -->
+<div id="carouselFotos" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/arco_plant.jpeg" class="d-block w-100" alt="Jardín en Envigado" style="height: 400px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Bienvenidos a Emprende Envigado</h5>
+        <p>Innovación, inclusión y desarrollo local</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/feria_de_mis_manos.jpeg" class="d-block w-100" alt="Feria artesanal" style="height: 400px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Feria De Mis Manos</h5>
+        <p>Apoyo al emprendimiento local</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/Lectura_bukz.jpeg" class="d-block w-100" alt="Café y naturaleza" style="height: 400px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Espacios de innovación</h5>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselFotos" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselFotos" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<section id="quienes" class="p-5 bg-light">
+  <div class="container">
+    <div class="card shadow-lg border-0 rounded-4 p-4" style="background-color: #fff8e6; color: #000;">
+      <h2 class="text-center mb-4">¿Quiénes somos?</h2>
+      <p class="lead text-center">
+        Somos una plataforma ciudadana que impulsa el emprendimiento local mediante el acceso a recursos, eventos, acompañamiento y redes colaborativas. Promovemos una cultura de innovación y participación con enfoque incluyente.
+      </p>
+      <p class="text-center fw-bold">Aquí todos aportamos. ¿Y tú, te apuntas a dar el paso?</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+  <!-- Secciones en desarrollo... -->
+
+  <section id="recursos" class="p-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-4">Oportunidades y Enlaces de Interés</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 card-custom card-blue">
+            <div class="card-body">
+              <h5 class="card-title">Envigado le apuesta al emprendimiento</h5>
+              <p class="card-text">Conoce cómo el municipio fortalece el tejido empresarial con políticas y programas innovadores.</p>
+              <a href="https://estrategiaedigital.com/actualidad/envigado-le-apuesta-al-emprendimiento-y-el-fortalecimiento-empresarial/" class="btn btn-outline-primary" target="_blank">Leer más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 card-custom card-green">
+            <div class="card-body">
+              <h5 class="card-title">Cámara de Comercio Aburrá Sur</h5>
+              <p class="card-text">Explora las iniciativas, capacitaciones y redes de apoyo para emprendedores del sur del Valle de Aburrá.</p>
+              <a href="https://ccas.org.co/emprendimiento/" class="btn btn-outline-primary" target="_blank">Visitar sitio</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 card-custom card-lavender">
+            <div class="card-body">
+              <h5 class="card-title">Alcaldía de Envigado</h5>
+              <p class="card-text">Accede al portal institucional para conocer convocatorias, ferias y más recursos para tu emprendimiento.</p>
+              <a href="https://www.envigado.gov.co/" class="btn btn-outline-primary" target="_blank">Ir al portal</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-5">
+  </section>
+
+  <section id="formulario" class="p-5">
+    <div class="container text-center">
+      <h2 class="mb-4">¿Quieres saber un poco más de tu nivel de emprendimiento?</h2>
+      <a href="formulario_diagnostico.html" class="btn btn-primary m-2">Diagnóstico Emprendedor</a>
+      <a href="formulario_apoyo.html" class="btn btn-success m-2">Formulario de Apoyo</a>
+    </div>
+  </section>
+  
+
+  <script>
+    function calcularNivel() {
+      const form = document.forms['formDiagnostico'];
+      let total = 0;
+      total += parseInt(form['idea'].value);
+      total += parseInt(form['inicio'].value);
+      total += parseInt(form['tiempo'].value);
+      total += parseInt(form['entidades'].value);
+
+      let mensaje = '';
+      if (total <= 3) mensaje = 'Nivel básico: ¡Es un buen momento para comenzar a explorar ideas!';
+      else if (total <= 6) mensaje = 'Nivel medio: ¡Estás en camino, sigue desarrollando tu idea!';
+      else mensaje = 'Nivel alto: ¡Tienes un perfil emprendedor sólido, sigue adelante!';
+
+      const resultado = document.getElementById('resultadoNivel');
+      resultado.classList.remove('d-none');
+      resultado.textContent = mensaje;
+    }
+
+    function recomendarApoyo() {
+      const form = document.forms['formApoyo'];
+      const necesidad = form['necesidad'].value;
+      const grupo = form['grupo'].value;
+
+      let recomendacion = 'Te recomendamos acercarte a ';
+
+      if (necesidad === 'capital') recomendacion += 'la Secretaría de Desarrollo Económico de Envigado o al Fondo Emprender del SENA';
+      else if (necesidad === 'mentoria') recomendacion += 'Parque del Emprendimiento de Envigado';
+      else if (necesidad === 'exposicion') recomendacion += 'ferias como "De Mis Manos" y mercados locales';
+      else if (necesidad === 'capacitacion') recomendacion += 'SENA, ANDI o programas del Ministerio de Comercio';
+      else recomendacion += 'comunidades empresariales o cámaras de comercio regionales';
+
+      if (grupo !== 'ninguno') recomendacion += ', especialmente enfocados en el grupo: ' + grupo + '.';
+
+      const resultado = document.getElementById('resultadoApoyo');
+      resultado.classList.remove('d-none');
+      resultado.textContent = recomendacion;
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">© 2025 Emprende Envigado</p>
+      <p class="mb-1">Hecho con amor para impulsar el emprendimiento local</p>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+</html>

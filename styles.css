@@ -1,0 +1,56 @@
+/* Títulos sobre las imágenes del carrusel */
+.carousel-caption h5,
+.carousel-caption p {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.9);
+}
+
+/* Estilo general de tarjetas */
+.card-custom {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: none;
+  border-radius: 10px;
+  color: #000;
+}
+
+.card-custom:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Colores específicos por tarjeta */
+.card-blue {
+  background-color: #cfe2ff;
+}
+
+.card-green {
+  background-color: #d1f7c4;
+}
+
+.card-lavender {
+  background-color: #e9d6ff;
+}
+
+/* Estilo de título */
+.card-title {
+  color: #003366;
+}
+
+/* Estilo de los botones dentro de las tarjetas */
+.card-body .btn {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+.card-body .btn:hover {
+  transform: scale(1.05);
+  background-color: #0d6efd;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(13, 110, 253, 0.4);
+  border: none;
+}

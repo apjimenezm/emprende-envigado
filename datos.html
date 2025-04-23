@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datos | Emprende Envigado</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      color: #1a1a1a;
+    }
+    .section-title {
+      font-weight: bold;
+      color: #1a1a1a;
+      margin-bottom: 1rem;
+    }
+    .container-narrow {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .img-fluid {
+      max-height: 350px;
+      width: 100%;
+      object-fit: contain;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 2rem;
+    }
+    table, th, td {
+      border: 1px solid #dee2e6;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+      color: #1a1a1a;
+    }
+    .table-blue th {
+      background-color: #8fc9f5;
+    }
+    .table-green th {
+      background-color: #8fe2a1;
+    }
+    .table-purple th {
+      background-color: #c5a9e0;
+    }
+    .row {
+      margin-bottom: 6rem;
+    }
+    .dual-box {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4rem;
+      justify-content: space-between;
+      margin-bottom: 5rem;
+    }
+    .dual-box > div {
+      flex: 1 1 48%;
+      min-width: 320px;
+    }
+    .centered-box {
+      max-width: 480px;
+      margin: 5rem auto 4rem auto;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Emprende Envigado</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#quienes">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="grupos_recursos.html" target="_blank">Grupos y Recursos</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#formulario">Formularios</a></li>
+          <li class="nav-item"><a class="nav-link active" aria-current="page" href="datos.html">Datos</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Contenido dinámico -->
+  <section class="p-5 bg-light">
+    <div class="container container-narrow">
+      <h2 class="text-center mb-5">Datos y Análisis</h2>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <h3 class="section-title">Contexto empresarial de Envigado</h3>
+          <p>Envigado ha sido históricamente un motor de desarrollo económico en el Valle de Aburrá, con un tejido empresarial sólido que aporta significativamente al empleo, a los ingresos tributarios y a la calidad de vida local.</p>
+          <p>En 2020, el municipio contaba con <strong>8.887 empresas registradas</strong>, de las cuales el <strong>85.9 % eran microempresas</strong>. La densidad empresarial alcanzaba <strong>36.1 empresas por cada mil habitantes</strong>.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/grafica1.png" alt="Contexto empresarial" class="img-fluid rounded shadow">
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5 flex-md-row-reverse">
+        <div class="col-md-6">
+          <h3 class="section-title">Proyecciones económicas y sectores promisorios</h3>
+          <p>Envigado avanza hacia un modelo de <strong>especialización inteligente</strong> (Economía 4.0), buscando fortalecer sectores como la bioeconomía, el turismo cultural y de naturaleza, y la transformación digital.</p>
+          <p>La creación del <em>ADN Valle de la Innovación</em> en 2020 es un ejemplo concreto: una zona de más de 25 hectáreas para impulsar industrias creativas, tecnologías y actividades multimedia.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/grafica2.png" alt="Proyecciones económicas" class="img-fluid rounded shadow">
+        </div>
+      </div>
+
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+          <h3 class="section-title">Economía social: una vía de transformación local</h3>
+          <p>Aunque la economía social en Envigado no tiene aún una clasificación jurídica formal, representa una alternativa estratégica para cerrar brechas de desigualdad.</p>
+          <p>Las empresas sociales pueden mejorar las condiciones de vida de la población al integrar valores como <strong>solidaridad, inclusión, sostenibilidad y generación de valor colectivo</strong>.</p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/grafica3.png" alt="Economía social" class="img-fluid rounded shadow">
+        </div>
+      </div>
+
+      <div class="dual-box">
+        <div>
+          <h3 class="section-title">Fuentes de financiación</h3>
+          <p>La mayoría de los emprendimientos recurren a recursos propios, familiares o ventas anticipadas para financiarse. Son menos los que acceden a convocatorias, créditos u otros incentivos.</p>
+          <table class="table-blue">
+            <thead>
+              <tr><th>Fuente</th><th>Porcentaje</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Recursos propios</td><td>45%</td></tr>
+              <tr><td>Apoyo familiar</td><td>25%</td></tr>
+              <tr><td>Créditos</td><td>15%</td></tr>
+              <tr><td>Convocatorias</td><td>15%</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div>
+          <h3 class="section-title">Educación de los emprendedores</h3>
+          <p>La mayoría de emprendedores sociales en Envigado cuentan con educación técnica, tecnológica o universitaria, lo que refleja una base sólida de formación.</p>
+          <table class="table-green">
+            <thead>
+              <tr><th>Nivel educativo</th><th>Porcentaje</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Universitaria</td><td>50%</td></tr>
+              <tr><td>Técnica/Tecnológica</td><td>30%</td></tr>
+              <tr><td>Básica</td><td>20%</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="centered-box">
+        <h3 class="section-title">Participación en redes</h3>
+        <p>Muchos de los emprendimientos no están formalmente articulados con redes de economía social, lo cual reduce su visibilidad e impacto colectivo.</p>
+        <table class="table-purple">
+          <thead>
+            <tr><th>Participación</th><th>Porcentaje</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Sí</td><td>30%</td></tr>
+            <tr><td>No</td><td>70%</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="index.html" class="btn btn-outline-secondary">&larr; Volver al inicio</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <div class="container">
+      <p class="mb-1">&copy; 2025 Emprende Envigado</p>
+      <p class="mb-1">Hecho con amor para impulsar el emprendimiento local</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
